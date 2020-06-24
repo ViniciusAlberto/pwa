@@ -1,0 +1,39 @@
+[
+    {
+      "data": "15/05/2020",
+      "url": "../pwa/img/habibs.jpg",
+      "restaurante":"Habibs",
+      "valor":"R$ 23,99",
+      "credito":false
+    },
+    {
+        "data": "11/05/2020",
+        "url": "../pwa/img/pizza.png",
+        "restaurante":"Pizza Hut",
+        "valor":"R$ 25,99",
+        "credito":false
+      },
+      {
+        "data": "08/05/2020",
+        "url": "../pwa/img/semlogo.png",
+        "restaurante":"Restaurante da Ana",
+        "valor":"R$ 15,99",
+        "credito":false
+      },
+      {
+        "data": "05/05/2020",
+        "url": "../pwa/img/mc.jpg",
+        "restaurante":"MC Donalds",
+        "valor":"R$ 30,99",
+        "credito":false        
+        
+      },
+      {
+        "data": "01/05/2020",
+        "url": "../pwa/img/entrada.png",
+        "restaurante":"Credito",
+        "valor":"R$ 400,99",
+        "credito":true
+      }
+ 
+  ]

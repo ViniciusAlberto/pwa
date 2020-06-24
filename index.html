@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="shortcut icon" href="img/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/icons/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon" href="images/icons/152.png">
+
+    <meta name="description" content="Auditoria">
+    <meta name="theme-color" content="#007858" />
+
+    <title>Saldo Cartão Refeição</title>
+</head>
+
+<body>
+    <header class="container-fluid bg-header">
+        <div class="row col-md-12">
+            <div class=" col text-center">
+                <img class="img-fluid mx-auto d-block" alt="logoalelo" src="img/logo.png">
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid content"  class="saldo">
+        <div class="card bg-light">
+            <p  class="card-text text-right number-card"><small class="text-muted">Final 9854</small></p>
+            <div class=" col text-center">
+                <img src="img/cifrao.png" alt="cifrao" class="card-img-top img-fluid">
+            </div>
+            <div class="card-body">
+                <h5 class="card-title text-center">R$ 102,89</h5>
+
+                <p class="card-text"><small class="text-muted">Atualizado a 1 minuto</small></p>
+            </div>
+        </div>
+    </section>
+    <section class="extrato container-fluid content">
+        <h3 class="title-extrato">Extrato</h3>
+        <ul class="list-group">
+
+        </ul>
+    </section>
+
+
+    <footer class="container-fluid text-center bg-footer ">
+        <div class="row">
+
+            <div class="col-12">
+                <button class="btn btn-success" id="instalar">Instalar</button>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="modal fade" id="successinstall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Alelo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Obrigado por instalar nosso aplicativo!
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+
+    <script>
+        let swRegistration = null;
+
+        if ('serviceWorker' in navigator) {
+
+            window.addEventListener('load', () => {
+
+                navigator.serviceWorker.register('service-worker.js').then((reg) => {
+
+                    console.log("Service Worker registrado com sucesso.", reg);
+                    swRegistration = reg;
+
+                    initialiseUI();
+                });
+
+            });
+
+        }
+    </script>
+</body>
+
+
+
+</html>

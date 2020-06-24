@@ -1,0 +1,62 @@
+   <li class="list-group-item">
+                <div>
+                    <p class=""><small class="text-muted">15/05/2020</small></p>
+                    <img class="img-extrato" src="/img/habibs.jpg">
+                    <span>Habibs</span>
+
+                    <span class="valor-extrato text-nowrap text-right">
+                        R$ 23,99
+                    </span>
+                </div>
+            </li>
+            <li class="list-group-item">
+                <div>
+                    <p class=""><small class="text-muted">11/05/2020</small></p>
+                    <img class="img-extrato" src="/img/pizza.png">
+                    <span>Pizza Hut</span>
+
+                    <span class="valor-extrato text-nowrap text-right">
+                        R$ 25,99
+                    </span>
+                </div>
+
+            </li>
+            <li class="list-group-item">
+                <div>
+                    <p class=""><small class="text-muted">08/05/2020</small></p>
+                    <img class="img-extrato" src="/img/semlogo.png">
+                    <span>Restaurante da Ana</span>
+
+                    <span class="valor-extrato text-nowrap text-right">
+                        R$ 15,99
+                    </span>
+                </div>
+
+            </li>
+            <li class="list-group-item">
+                <div>
+                    <p class=""><small class="text-muted">07/05/2020</small></p>
+                    <img class="img-extrato" src="/img/mc.jpg">
+                    <span>MC Donalds</span>
+
+                    <span class="valor-extrato text-nowrap text-right">
+                        R$ 30,99
+                    </span>
+                </div>
+
+            </li>
+            <li class="list-group-item">
+                <div class="credito">
+                    <p class=""><small class="text-muted">02/05/2020</small></p>
+                    <img class="img-extrato" src="/img/entrada.png">
+                    <span>Credito</span>
+
+                    <span class="valor-extrato text-nowrap text-right">
+                        R$ 400,99
+                    </span>
+                </div>
+
+            </li>
+
+
+            <li class="list-group-item">

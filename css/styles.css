@@ -1,0 +1,67 @@
+.bg-header {
+    background-color: #007858;
+}
+
+.bg-footer {
+    background-color: #007858;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    min-height: 15px;
+}
+
+
+.card {
+    background-color: #f3f4f4;
+    margin-top: 10px;
+
+}
+
+.saldo {
+    padding: 5px;
+    margin-bottom:50px;
+}
+
+.card-img-top {
+    width: 40%;
+    height: 40%;
+}
+
+.img-extrato {
+    max-width: 50px;
+    max-height: 50px;
+    padding-right: 5px;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.valor-extrato {
+    float: right;
+}
+
+.title-extrato {
+    padding-left: 4px;
+}
+
+.credito {
+    color: teal;
+}
+
+h3
+{
+    margin-top:5px;
+}
+
+.number-card{
+    margin-right: 5px;
+}
+
+.extrato{
+
+    margin-bottom: 10px;
+}
+
+.list-group-item{
+    border: 2px solid #f3f4f4;
+}
